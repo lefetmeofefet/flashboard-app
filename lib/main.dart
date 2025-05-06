@@ -101,7 +101,7 @@ class _MyAppState extends State<MyApp> {
         },
       )
       // ..loadRequest(Uri.parse('http://192.168.0.166:8080'));
-      ..loadRequest(Uri.parse('http://flashboard.site'));
+      ..loadRequest(Uri.parse('https://flashboard.site'));
 
     _allowCookies();
     _requestReadFilesPermission();
